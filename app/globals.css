@@ -32,7 +32,6 @@
 
 .main:after {
   content: "";
-  background-image: url("../public/assets/grid.svg");
   z-index: 1;
   position: absolute;
   width: 100%;
@@ -81,6 +80,9 @@
 
 .black_btn {
   @apply rounded-full border border-black bg-black py-1.5 px-5 text-sm text-white transition-all hover:bg-white hover:text-black;
+}
+.outline_btn {
+  @apply rounded-full border-2 border-black hover:border-2 hover:border-yellow-500 py-1.5 px-5 text-sm text-white transition-all hover:bg-white hover:text-black;
 }
 
 .head_text {
