@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Article Summarizer with OpenAI GPT-4 (RapidAPI) and Redux
+Al article summarizer tool with NextJS and chatGPT(RapidAPI)
+
+[nextjs ai Website](public/screen.png)
+
+## Overview
+
+This Next.js project utilizes the power of OpenAI GPT-4 through RapidAPI to create a simple article summarizer. With the combination of Next.js for the frontend, Redux for state management, and OpenAI GPT-4 for natural language processing, this project offers a seamless and efficient way to generate article summaries.
+
+## Features
+
+- **Article Summarization:** Leverage the capabilities of OpenAI GPT-4 to generate concise and informative summaries of articles.
+- **Next.js Framework:** Utilize the benefits of server-side rendering, automatic code splitting, and a great developer experience provided by Next.js.
+- **Redux State Management:** Manage application state efficiently with Redux, ensuring a predictable and centralized state container.
+- **RapidAPI Integration:** Access OpenAI GPT-4 through RapidAPI, simplifying the integration process and allowing for easy scalability.
+
+## Prerequisites
+
+Before getting started, ensure you have the following installed:
+
+- Node.js: [Download and install Node.js](https://nodejs.org/)
+- npm: npm is the package manager for Node.js and comes bundled with the installation of Node.js.
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+    ```bash
+    git clone https://github.com/minhajhameed/nextjs-ai-summarizer.git
+    cd nextjs-ai-summarizer
+    ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+    ```bash
+    npm install
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Create a RapidAPI account and obtain an API key for OpenAI GPT-4.
 
-## Learn More
+4. Copy the `.env.example` file to a new file named `.env.local` and fill in your RapidAPI key:
 
-To learn more about Next.js, take a look at the following resources:
+    ```
+    RAPIDAPI_KEY=your_rapidapi_key
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+5. Start the development server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    ```bash
+    npm run dev
+    ```
 
-## Deploy on Vercel
+6. Open your browser and visit [http://localhost:3000](http://localhost:3000) to see the application in action.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Usage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Enter the URL of the article you want to summarize.
+2. Click the "Summarize" button.
+3. The application will communicate with OpenAI GPT-4 via RapidAPI and display the generated summary.
+
+## Contributing
+
+Contributions are welcome! If you have ideas for improvements or find any issues, please submit a pull request or open an issue.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact:
+For any questions or feedback, feel free to reach out to us at [minhajham@yahoo.com](mailto:minhajham@yahoo.com).
