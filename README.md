@@ -1,7 +1,7 @@
 # Next.js Article Summarizer with OpenAI GPT-4 (RapidAPI) and Redux
 Al article summarizer tool with NextJS and chatGPT(RapidAPI)
 
-[nextjs ai Website](public/screen.png)
+![nextjs ai Website](public/screen.png)
 
 ## Overview
 
